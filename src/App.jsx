@@ -12,7 +12,7 @@ function App() {
           <Card />
           <Sort />
       </>
-  )
+  );
 }
 
 export default App;

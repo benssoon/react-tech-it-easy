@@ -1,3 +1,5 @@
+import './Sort.css';
+
 function Sort() {
     function handleClick(buttonText) {
         console.log(buttonText);
@@ -9,7 +11,7 @@ function Sort() {
             <button type="button" onClick={() => handleClick("Goedkoopste eerst")}>Goedkoopste eerst</button>
             <button type="button" onClick={() => handleClick("Meest geschikt voor sport eerst")}>Meest geschikt voor sport eerst</button>
         </>
-    )
+    );
 
 }
 

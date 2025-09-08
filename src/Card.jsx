@@ -1,3 +1,4 @@
+import './Card.css';
 import {formatName, formatPrice, formatSizes} from './helpers/showProduct.js';
 import {bestSellingTv} from './constants/inventory.js';
 import thumbnail from './assets/tv-thumbnail.jpeg';
@@ -28,7 +29,7 @@ function Card() {
                 </span>
         </article>
         </>
-    )
+    );
 }
 
 export default Card;
