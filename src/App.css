@@ -24,11 +24,23 @@
 }
 
 .thumbnail {
-    
+    border: solid greenyellow 10px;
+    padding: 20px 0 20px 0;
+}
+.info {
+    border: solid greenyellow 10px;
 }
 
-.info {
+.icon {
+    max-width: 20px;
+    padding: 4px;
+}
 
+.capabilities {
+    display: flex;
+    justify-content: flex-start;
+    gap: 5px;
+    align-items: flex-start;
 }
 
 .price {
