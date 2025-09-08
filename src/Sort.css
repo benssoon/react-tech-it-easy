@@ -1,0 +1,7 @@
+.sort {
+    display: flex;
+    align-self: center;
+    margin-top: 2em;
+    gap: 2em;
+
+}

@@ -1,14 +1,17 @@
 import './Stock.css';
-import {currentStock, numberTvsPurchased, numberTvsSold} from './helpers/calcInventory.js';
+import {currentStock, numberPurchased, numberSold} from './helpers/calcInventory.js';
+import StockCard from './StockCard.jsx';
 
 function Stock() {
     return (
-        <>
+        <div className="container">
             <h2>Verkoopoverzicht</h2>
-            <p>Total tvs sold: <em className="numberSold">{numberTvsSold()}</em></p>
-            <p>Total tvs purchased: <em className="numberPurchased">{numberTvsPurchased()}</em></p>
-            <p>Current stock: <em className="currentStock">{currentStock()}</em></p>
-        </>
+            <article className="stock-section">
+                <StockCard productType="televisies" id="sold"/>
+                <StockCard productType="televisies" id="purchased"/>
+                <StockCard productType="televisies" id="stock"/>
+            </article>
+        </div>
     );
 }
 

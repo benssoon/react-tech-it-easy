@@ -1,14 +1,4 @@
-.numberSold {
-    color: green;
-    background-color: lightgreen;
-}
-
-.numberPurchased {
-    color: blue;
-    background-color: lightblue;
-}
-
-.currentStock {
-    color: red;
-    background-color: pink;
+.stock-section {
+    display: flex;
+    justify-content: space-between;
 }
