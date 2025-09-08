@@ -3,7 +3,6 @@ import {bestSellingTv} from './constants/inventory.js';
 import thumbnail from './assets/tv-thumbnail.jpeg';
 import checkIcon from './assets/check.png';
 import minusIcon from './assets/minus.png';
-import soldOut from './assets/out-of-stock.png';
 
 function Card() {
     return (
