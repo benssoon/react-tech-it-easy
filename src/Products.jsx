@@ -5,8 +5,10 @@ function getTitle(category, productType) {
     switch (category) {
         case 'best-seller':
             return 'Best verkochte ' + productType;
+        case '':
+            return;
         default:
-            return 'test';
+            return `Category "${category}" is unavailable`;
     }
 }
 
@@ -14,7 +16,7 @@ function Products(props) {
     return (
         <>
             <h2>{getTitle(props.className, props.productType)}</h2>
-            <ProductCard className={[props.className, "card"].join(' ')} productType={props.productType}/>
+            <ProductCard television={props.television} className={[props.className, "card"].join(' ')} productType={props.productType}/>
         </>
     );
 }

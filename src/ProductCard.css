@@ -8,23 +8,38 @@
 }
 
 .thumbnail {
-
-    padding: 20px 0 20px 0;
-}
-.info {
-
+    max-width: 300px;
+    width: 100%;
+    height: auto;
+    padding: 20px 0;
+    object-fit: contain;
 }
 
 .icon {
     max-width: 20px;
     padding: 4px;
+    align-self: flex-start;
+}
+
+.info {
+    max-width: 29rem;
+    flex: 1;
+}
+
+.sizes {
+
 }
 
 .capabilities {
     display: flex;
-    justify-content: flex-start;
-    gap: 5px;
-    align-items: flex-start;
+    justify-content: space-between;
+    padding: 0;
+    width: 100%;
+}
+
+.option {
+    display: flex;
+    flex-grow: 1;
 }
 
 .price {
