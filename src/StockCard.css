@@ -1,0 +1,24 @@
+.stock-card {
+    border: solid 2px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 2em;
+    width: 11em;
+    text-align: center;
+}
+
+#sold {
+    color: green;
+    background-color: lightgreen;
+}
+
+#purchased {
+    color: blue;
+    background-color: lightblue;
+}
+
+#stock {
+    color: red;
+    background-color: pink;
+}
